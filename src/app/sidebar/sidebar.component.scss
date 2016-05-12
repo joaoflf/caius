@@ -1,0 +1,35 @@
+@import "../../colors";
+$sidebar-background-color: $oxford-blue;
+$sidebar-header-background-color: $oxford-blue-light;
+$sidebar-menu-color: $porcelain;
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: $sidebar-background-color;
+  width: 200px;
+}
+.sidebar-header {
+  background: $sidebar-header-background-color;
+  height: 60px;
+  width: 100%;
+}
+.sidebar-title {
+  color: $sidebar-menu-color;
+  display: block;
+  font-weight: 600;
+  line-height: 60px;
+  padding-left: 15px;
+  width: 100%;
+}
+.menu-list {
+  margin: 30px 10px;
+}
+.item-title {
+  color: rgb(167, 175, 189);
+  font-size: 14px;
+  padding-left: 5px;
+}
+.item-icon {
+  color: rgb(167, 175, 189);
+}

@@ -15,9 +15,26 @@
     "target": "es5",
     "inlineSources": true
   },
-
+  "filesGlob": [
+    "**/*.ts"
+  ],
   "files": [
+    "app/caius.component.spec.ts",
+    "app/caius.component.ts",
+    "app/environment.ts",
+    "app/header/header.component.spec.ts",
+    "app/header/header.component.ts",
+    "app/header/index.ts",
+    "app/index.ts",
+    "app/shared/index.ts",
+    "app/sidebar/index.ts",
+    "app/sidebar/sidebar.component.spec.ts",
+    "app/sidebar/sidebar.component.ts",
     "main.ts",
+    "system-config.ts",
     "typings.d.ts"
-  ]
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
 }
