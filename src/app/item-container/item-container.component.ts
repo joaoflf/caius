@@ -1,4 +1,6 @@
 import {Component, OnInit} from '@angular/core';
+import * as d3 from 'd3';
+
 
 @Component({
   moduleId: module.id,
@@ -7,7 +9,11 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['item-container.component.css']
 })
 export class ItemContainerComponent implements OnInit {
-  constructor() {}
+  constructor() {
+    console.log(d3);
+  }
 
-  ngOnInit() {}
+  ngOnInit() {
+    //
+  }
 }

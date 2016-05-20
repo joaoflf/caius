@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ItemContainerComponent} from '../item-container/item-container.component';
 import {MainContainerService} from './main-container.service';
-//import {Item} from '../item/item';
+import {Item} from '../item/item';
 
 @Component({
   moduleId: module.id,
@@ -16,11 +16,11 @@ export class MainContainerComponent implements OnInit {
     private mainContainerService: MainContainerService
   ) {}
 
-  //items: Item[];
+  items: Item[];
 
-  ngOnInit() {}
-
-  getItems() {
-    return this.mainContainerService.getItems();
+  ngOnInit() {
+    this.mainContainerService.getItems().then(
+      items => this.items = items
+    )
   }
 }

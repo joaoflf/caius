@@ -5,7 +5,7 @@ import { ITEMS } from '../item/mock-items';
 export class MainContainerService {
 
   getItems() {
-    return ITEMS;
+    return Promise.resolve(ITEMS);
   }
 
 }

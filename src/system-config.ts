@@ -2,7 +2,9 @@
  * User Configuration.
  **********************************************************************************************/
 /** Map relative paths to URLs. */
-const map: any = {};
+const map: any = {
+  'd3': 'vendor/d3/d3.js'
+};
 
 /** User packages configuration. */
 const packages: any = {};
