@@ -1,7 +1,7 @@
 @import "../../colors";
 $header-border-color: $porcelain;
 $header-background-color: $white;
-.header {
+:host {
   background: $header-background-color;
   box-shadow: 2px 2px 4px 0 #E9EBED;
   height: 60px;

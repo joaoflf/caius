@@ -2,23 +2,24 @@ import {beforeEach, beforeEachProviders, describe, expect, it, inject,} from '@a
 import {ComponentFixture, TestComponentBuilder} from '@angular/compiler/testing';
 import {Component} from '@angular/core';
 import {By} from '@angular/platform-browser';
-import {SidebarComponent} from './sidebar.component';
+import {ItemContainerComponent} from './item-container.component';
 
-describe('Component: Sidebar', () => {
+describe('Component: ItemContainer', () => {
   let builder: TestComponentBuilder;
 
-  beforeEachProviders(() => [SidebarComponent]);
+  beforeEachProviders(() => [ItemContainerComponent]);
   beforeEach(
       inject([TestComponentBuilder], function(tcb: TestComponentBuilder) { builder = tcb; }));
 
-  it('should inject the component', inject([SidebarComponent], (component: SidebarComponent) => {
+  it('should inject the component',
+     inject([ItemContainerComponent], (component: ItemContainerComponent) => {
        expect(component).toBeTruthy();
      }));
 
   it('should create the component', inject([], () => {
-       return builder.createAsync(SidebarComponentTestController)
+       return builder.createAsync(ItemContainerComponentTestController)
            .then((fixture: ComponentFixture<any>) => {
-             let query = fixture.debugElement.query(By.directive(SidebarComponent));
+             let query = fixture.debugElement.query(By.directive(ItemContainerComponent));
              expect(query).toBeTruthy();
              expect(query.componentInstance).toBeTruthy();
            });
@@ -28,9 +29,9 @@ describe('Component: Sidebar', () => {
 @Component({
   selector: 'test',
   template: `
-    <caius-sidebar></caius-sidebar>
+    <caius-item-container></caius-item-container>
   `,
-  directives: [SidebarComponent]
+  directives: [ItemContainerComponent]
 })
-class SidebarComponentTestController {
+class ItemContainerComponentTestController {
 }

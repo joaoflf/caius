@@ -1,0 +1,11 @@
+@import "../../colors";
+$chart-container-border-color: $porcelain;
+$chart-container-background-color: $white;
+
+:host {
+  background: $chart-container-background-color;
+  border-bottom: $chart-container-border-color;
+  box-shadow: 2px 2px 4px 0px $porcelain;
+  display: block;
+  padding: 20px;
+}

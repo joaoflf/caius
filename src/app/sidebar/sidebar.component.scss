@@ -2,7 +2,7 @@
 $sidebar-background-color: $oxford-blue;
 $sidebar-header-background-color: $oxford-blue-light;
 $sidebar-menu-color: $porcelain;
-.sidebar {
+:host {
   position: fixed;
   top: 0;
   bottom: 0;
