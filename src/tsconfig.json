@@ -30,7 +30,6 @@
     "app/item-container/item-container.component.spec.ts",
     "app/item-container/item-container.component.ts",
     "app/item/item.ts",
-    "app/item/mock-items.ts",
     "app/main-container/index.ts",
     "app/main-container/main-container.component.spec.ts",
     "app/main-container/main-container.component.ts",

@@ -3,11 +3,18 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
-  'd3': 'vendor/d3/d3.js'
+  'd3': 'vendor/d3/d3.js',
+  'firebase': 'vendor/firebase/lib/firebase-web.js',
+  'angularfire2': 'vendor/angularfire2'
 };
 
 /** User packages configuration. */
-const packages: any = {};
+const packages: any = {
+  angularfire2: {
+    defaultExtension: 'js',
+    main: 'angularfire2.js'
+  }
+};
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 /***********************************************************************************************

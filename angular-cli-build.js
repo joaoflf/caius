@@ -12,7 +12,10 @@ module.exports = function(defaults) {
       'reflect-metadata/*.js',
       'rxjs/**/*.js',
       '@angular/**/*.js',
-      'd3/d3.js'
+      'd3/d3.js',
+      'jointjs/dist/joint.min.js',
+      'angularfire2/**/*.js',
+      'firebase/lib/*.js'
     ]
   });
 };
