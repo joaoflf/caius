@@ -1,0 +1,23 @@
+$bit-padding: 20px;
+$body-background-color: #F1F1F1;
+html {
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  background: $body-background-color;
+  margin: 0;
+  position: relative;
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+ol,
+ul {
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

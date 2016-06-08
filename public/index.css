@@ -1,0 +1,19 @@
+html {
+  font-family: 'Raleway', sans-serif; }
+
+body {
+  background: #F1F1F1;
+  margin: 0;
+  position: relative; }
+  body:after {
+    content: "";
+    clear: both;
+    display: table; }
+
+ol,
+ul {
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
