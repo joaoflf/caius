@@ -15,7 +15,8 @@ module.exports = function(defaults) {
       'd3/d3.js',
       'jointjs/dist/joint.min.js',
       'angularfire2/**/*.js',
-      'firebase/lib/*.js'
+      'firebase/lib/*.js',
+      '@ngrx/**/*.js'
     ]
   });
 };

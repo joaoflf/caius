@@ -21,6 +21,10 @@
   "files": [
     "app/caius.component.spec.ts",
     "app/caius.component.ts",
+    "app/common/index.ts",
+    "app/common/interfaces.ts",
+    "app/common/reducers/item.reducers.ts",
+    "app/common/reducers/reducers.ts",
     "app/environment.ts",
     "app/header/header.component.spec.ts",
     "app/header/header.component.ts",
@@ -35,7 +39,6 @@
     "app/main-container/main-container.component.ts",
     "app/main-container/main-container.service.spec.ts",
     "app/main-container/main-container.service.ts",
-    "app/shared/index.ts",
     "app/sidebar/index.ts",
     "app/sidebar/sidebar.component.spec.ts",
     "app/sidebar/sidebar.component.ts",

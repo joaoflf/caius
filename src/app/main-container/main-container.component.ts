@@ -3,6 +3,8 @@ import {ItemContainerComponent} from '../item-container/item-container.component
 import {MainContainerService} from './main-container.service';
 import {Item} from '../item/item';
 import {Observable} from "rxjs/Rx";
+import {Store} from "@ngrx/store";
+import {AppState} from "../common/interfaces";
 
 
 @Component({
@@ -14,11 +16,14 @@ import {Observable} from "rxjs/Rx";
   providers: [MainContainerService]
 })
 export class MainContainerComponent implements OnInit {
-  constructor(private mainContainerService: MainContainerService) { }
+  constructor(
+    private mainContainerService: MainContainerService,
+    private _store: Store<AppState>
+  ) { }
 
   items: Observable<Item[]> = Observable.create();
 
   ngOnInit() {
-    this.items = this.mainContainerService.getItems();
+    this.items = this._store.select<Item[]>('items');
   }
 }
