@@ -1,5 +1,6 @@
-import {Item} from "../item/item";
+import {ItemsState} from "../item/item.reducers";
 
+//build app state interface from all module/features state interfaces
 export interface AppState {
-  Items: Item[]
+  items: ItemsState
 }

@@ -16,15 +16,16 @@
     "inlineSources": true
   },
   "filesGlob": [
-    "**/*.ts"
+    "**/*.ts",
+    "!../node_modules/**",
+    "!../typings/**/*.ts"
   ],
   "files": [
     "app/caius.component.spec.ts",
     "app/caius.component.ts",
     "app/common/index.ts",
     "app/common/interfaces.ts",
-    "app/common/reducers/item.reducers.ts",
-    "app/common/reducers/reducers.ts",
+    "app/common/reducers.ts",
     "app/environment.ts",
     "app/header/header.component.spec.ts",
     "app/header/header.component.ts",
@@ -33,7 +34,9 @@
     "app/item-container/index.ts",
     "app/item-container/item-container.component.spec.ts",
     "app/item-container/item-container.component.ts",
-    "app/item/item.ts",
+    "app/item/item.actions.ts",
+    "app/item/item.model.ts",
+    "app/item/item.reducers.ts",
     "app/main-container/index.ts",
     "app/main-container/main-container.component.spec.ts",
     "app/main-container/main-container.component.ts",

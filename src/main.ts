@@ -3,7 +3,8 @@ import {enableProdMode} from '@angular/core';
 import {CaiusAppComponent, environment} from './app/';
 import { FIREBASE_PROVIDERS, defaultFirebase } from 'angularfire2';
 import {provideStore} from "@ngrx/store";
-import * as APP_REDUCERS from "./app/common/reducers/reducers";
+import * as APP_REDUCERS from "./app/common/reducers";
+
 
 if (environment.production) {
   enableProdMode();

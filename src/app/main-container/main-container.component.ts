@@ -1,7 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {ItemContainerComponent} from '../item-container/item-container.component';
+import {ItemActions} from "../item/item.actions";
 import {MainContainerService} from './main-container.service';
-import {Item} from '../item/item';
+import {Item} from '../item/item.model';
 import {Observable} from "rxjs/Rx";
 import {Store} from "@ngrx/store";
 import {AppState} from "../common/interfaces";
@@ -13,7 +14,7 @@ import {AppState} from "../common/interfaces";
   templateUrl: 'main-container.component.html',
   styleUrls: ['main-container.component.css'],
   directives: [ItemContainerComponent],
-  providers: [MainContainerService]
+  providers: [ItemActions, MainContainerService]
 })
 export class MainContainerComponent implements OnInit {
   constructor(

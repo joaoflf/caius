@@ -6,7 +6,8 @@ const map: any = {
   'd3': 'vendor/d3/d3.js',
   'firebase': 'vendor/firebase/lib/firebase-web.js',
   'angularfire2': 'vendor/angularfire2',
-  '@ngrx': 'vendor/@ngrx'
+  '@ngrx': 'vendor/@ngrx',
+  //'@ngrx/devtools': 'vendor/@ngrx/devtools/dist'
 };
 
 /** User packages configuration. */
@@ -23,6 +24,10 @@ const packages: any = {
     main: 'index.js',
     format: 'cjs'
   }
+  // '@ngrx/devtools': {
+  //   main: 'index.js',
+  //   format: 'cjs'
+  // }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -32,7 +37,7 @@ const packages: any = {
 const barrels: string[] = [
   // Angular specific barrels.
   '@angular/core', '@angular/common', '@angular/compiler', '@angular/http', '@angular/router',
-  '@angular/platform-browser', '@angular/platform-browser-dynamic',
+  '@angular/platform-browser', '@angular/platform-browser-dynamic', '@ngrx/devtools',
 
   // Thirdparty barrels.
   'rxjs',
