@@ -1,13 +1,22 @@
-@import "../../colors";
-$header-border-color: $porcelain;
-$header-background-color: $white;
+@import "../common/styles/colors";
+$header-border-color: $alto;
+$header-background-color: $pampas;
+$header-text-color: $monsoon;
+
 :host {
+  border-bottom: 1px solid $header-border-color;
   background: $header-background-color;
-  box-shadow: 2px 2px 4px 0 #E9EBED;
-  height: 60px;
-  left: 200px;
+  color: $header-text-color;
+  height: 75px;
+  left: 280px;
   font-weight: 600;
+  padding: 0 20px;
   position: fixed;
-  right: 0;
+  right: 20px;
   top: 0;
+}
+
+.header-title {
+  font-size: 20px;
+  line-height: 75px;
 }

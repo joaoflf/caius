@@ -19,4 +19,5 @@ module.exports = function(defaults) {
       '@ngrx/**/*.js'
     ]
   });
+
 };

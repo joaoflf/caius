@@ -1,7 +1,8 @@
+@import "./colors";
 $bit-padding: 20px;
-$body-background-color: #F1F1F1;
+$body-background-color: $pampas;
 html {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Muli', Helvetica, Arial, sans-serif;
 }
 body {
   background: $body-background-color;

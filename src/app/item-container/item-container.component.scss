@@ -1,11 +1,14 @@
-@import "../../colors";
-$chart-container-border-color: $porcelain;
-$chart-container-background-color: $white;
+@import "../common/styles/colors";
+$item-container-background-color: $white;
+$item-container-shadow-color: $vista-white;
+$item-container-text-color: $tuatara;
 
 :host {
-  background: $chart-container-background-color;
-  border-bottom: $chart-container-border-color;
-  box-shadow: 2px 2px 4px 0px $porcelain;
+  background: $item-container-background-color;
+  border-radius: 6px;
+  box-shadow: $item-container-shadow-color 0px 2px 2px 0px;
+  color: $item-container-text-color;
   display: block;
+  min-height: 200px;
   padding: 20px;
 }
