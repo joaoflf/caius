@@ -42,10 +42,11 @@
     "karma-chrome-launcher": "^0.2.3",
     "karma-jasmine": "^0.3.8",
     "node-sass": "^3.7.0",
+    "ora": "^0.2.3",
     "protractor": "^3.3.0",
     "ts-node": "^0.5.5",
     "tslint": "^3.6.0",
     "typescript": "^1.8.10",
-    "typings": "^0.8.1"
+    "typings": "^1.0.0"
   }
 }
