@@ -2,29 +2,32 @@
   position: fixed;
   top: 0;
   bottom: 0;
-  background: #343F50;
-  width: 200px; }
+  background: #FFF;
+  box-shadow: #dddddd -1px 0px 0px 0px inset;
+  color: #66615B;
+  width: 260px; }
 
 .sidebar-header {
-  background: #3C495D;
-  height: 60px;
-  width: 100%; }
+  border-bottom: 1px solid #D1D0CE;
+  height: 75px;
+  margin: 0 20px; }
 
 .sidebar-title {
-  color: #E9EBED;
   display: block;
-  font-weight: 600;
-  line-height: 60px;
-  padding-left: 15px;
-  width: 100%; }
+  font-weight: 400;
+  line-height: 75px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase; }
 
 .menu-list {
-  margin: 30px 10px; }
+  margin: 30px 25px; }
 
 .item-title {
-  color: #a7afbd;
-  font-size: 14px;
-  padding-left: 5px; }
+  color: #66615B;
+  font-size: 12px;
+  padding-left: 5px;
+  text-transform: uppercase; }
 
 .item-icon {
   color: #a7afbd; }

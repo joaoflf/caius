@@ -1,6 +1,8 @@
 :host {
   background: #FFF;
-  border-bottom: #E9EBED;
-  box-shadow: 2px 2px 4px 0px #E9EBED;
+  border-radius: 6px;
+  box-shadow: rgba(204, 197, 185, 0.498039) 0px 2px 2px 0px;
+  color: #252422;
   display: block;
+  min-height: 200px;
   padding: 20px; }

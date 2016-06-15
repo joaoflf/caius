@@ -1,9 +1,15 @@
 :host {
-  background: #FFF;
-  box-shadow: 2px 2px 4px 0 #E9EBED;
-  height: 60px;
-  left: 200px;
+  border-bottom: 1px solid #DDDDDD;
+  background: #F4F3EF;
+  color: #777777;
+  height: 75px;
+  left: 280px;
   font-weight: 600;
+  padding: 0 20px;
   position: fixed;
-  right: 0;
+  right: 20px;
   top: 0; }
+
+.header-title {
+  font-size: 20px;
+  line-height: 75px; }

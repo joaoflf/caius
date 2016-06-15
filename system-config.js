@@ -6,7 +6,7 @@ var map = {
     'd3': 'vendor/d3/d3.js',
     'firebase': 'vendor/firebase/lib/firebase-web.js',
     'angularfire2': 'vendor/angularfire2',
-    '@ngrx': 'vendor/@ngrx'
+    '@ngrx': 'vendor/@ngrx',
 };
 /** User packages configuration. */
 var packages = {
@@ -30,7 +30,7 @@ var packages = {
 var barrels = [
     // Angular specific barrels.
     '@angular/core', '@angular/common', '@angular/compiler', '@angular/http', '@angular/router',
-    '@angular/platform-browser', '@angular/platform-browser-dynamic',
+    '@angular/platform-browser', '@angular/platform-browser-dynamic', '@ngrx/devtools',
     // Thirdparty barrels.
     'rxjs',
     // App specific barrels.
@@ -45,4 +45,4 @@ System.config({
 });
 // Apply the user's configuration.
 System.config({ map: map, packages: packages });
-//# sourceMappingURL=system-config.js.map
+//# sourceMappingURL=../system-config.js.map
