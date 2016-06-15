@@ -6,6 +6,10 @@ The usage of @ngrx/store is to design the application using the redux architectu
 The folder structure is laid out in a feature/component manner, meaning that each feature/component folder has its own views, components, actions, reducers, etc. 
 The app also uses firebase with angularfire2.
 
+### Prerequisites
+You will need to have [Git](https://git-scm.com/) and [Node.js + NPM](http://nodejs.org) installed on your machine. You will also need to install the `typings` NPM package globally via `npm i -g typings`.
+> Even if you already have the `typings` package installed globally, this repo requires `typings 1.x` so make sure your version is up do date.
+
 ### Quick start
 
 ```bash
@@ -15,7 +19,7 @@ git clone https://github.com/ngrx/caius.git
 # change directory to repo
 cd caius
 
-# run npm install
+# run npm install (typings install will run automatically)
 npm i
 
 # start the server
