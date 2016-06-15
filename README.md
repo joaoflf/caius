@@ -19,4 +19,4 @@ npm i
 npm start
 ```
 
-Navigate to [http://localhost:4200/](http://localhost:4280/) in your browser
+Navigate to [http://localhost:4200/](http://localhost:4200/) in your browser
