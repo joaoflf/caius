@@ -14,7 +14,7 @@ You will need to have [Git](https://git-scm.com/) and [Node.js + NPM](http://nod
 
 ```bash
 # clone the repo
-git clone https://github.com/ngrx/caius.git
+git clone https://github.com/joaoflf/caius.git
 
 # change directory to repo
 cd caius
