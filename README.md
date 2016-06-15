@@ -1,5 +1,8 @@
 # caius
-Dashboard Prototype using Angular 2 with ngrx/store. The usage of @ngrx/store is to design the application using the redux architecture/paradigm.
+Dashboard Prototype using Angular 2 with ngrx/store. 
+
+The usage of @ngrx/store is to design the application using the redux architecture/paradigm.
+
 The folder structure is laid out in a feature/component manner, meaning that each feature/component folder has its own views, components, actions, reducers, etc. 
 The app also uses firebase with angularfire2.
 
