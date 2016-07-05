@@ -1,22 +1,22 @@
 @import "../common/styles/colors";
-$header-border-color: $alto;
-$header-background-color: $pampas;
-$header-text-color: $monsoon;
+$header-background-color: $white;
+$header-text-color: $regent-gray;
+$header-shadow-color: $vista-white;
 
 :host {
-  border-bottom: 1px solid $header-border-color;
   background: $header-background-color;
   color: $header-text-color;
-  height: 75px;
-  left: 280px;
-  font-weight: 600;
+  box-shadow: $header-shadow-color 0px 1px 2px 0px;
+  height: 66px;
+  left: 260px;
+  font-size: 14px;
+  font-weight: 200;
   padding: 0 20px;
   position: fixed;
-  right: 20px;
+  right: 0;
   top: 0;
 }
 
 .header-title {
-  font-size: 20px;
-  line-height: 75px;
+  line-height: 66px;
 }

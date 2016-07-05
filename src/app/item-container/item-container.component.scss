@@ -1,14 +1,16 @@
 @import "../common/styles/colors";
 $item-container-background-color: $white;
 $item-container-shadow-color: $vista-white;
-$item-container-text-color: $tuatara;
+$item-container-text-color: $oxford-blue;
 
 :host {
   background: $item-container-background-color;
   border-radius: 6px;
-  box-shadow: $item-container-shadow-color 0px 2px 2px 0px;
+  box-shadow: $item-container-shadow-color 0px 1px 2px 0px;
   color: $item-container-text-color;
   display: block;
-  min-height: 200px;
-  padding: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  min-height: 300px;
+  padding: 30px;
 }
