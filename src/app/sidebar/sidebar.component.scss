@@ -28,11 +28,18 @@ $sidebar-title-text-color: $white;
   margin: 30px 25px;
 }
 .item-title {
-  color: $sidebar-text-color;
-  font-size: 12px;
-  padding-left: 5px;
+  display: block;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom:20px;
   text-transform: uppercase;
 }
-.item-icon {
+.sub-item-title {
+  color: $sidebar-text-color;
+  font-size: 14px;
+  padding-left: 10px;
+  font-weight: 300;
+}
+.sub-item-icon {
   color: rgb(167, 175, 189);
 }
