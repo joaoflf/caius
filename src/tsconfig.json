@@ -42,6 +42,7 @@
     "app/main-container/main-container.component.ts",
     "app/main-container/main-container.service.spec.ts",
     "app/main-container/main-container.service.ts",
+    "app/shared/index.ts",
     "app/sidebar/index.ts",
     "app/sidebar/sidebar.component.spec.ts",
     "app/sidebar/sidebar.component.ts",

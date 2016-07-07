@@ -12,6 +12,11 @@ if (environment.production) {
 
 bootstrap(CaiusAppComponent, [
   FIREBASE_PROVIDERS,
-  defaultFirebase('https://project-7105213021383303500.firebaseio.com/'),
+  defaultFirebase({
+    apiKey: "AIzaSyCYSCUG-WtmtwcEckIrQ2--xGJR6-u1Hz8",
+    authDomain: "project-7105213021383303500.firebaseapp.com",
+    databaseURL: "https://project-7105213021383303500.firebaseio.com",
+    storageBucket: "project-7105213021383303500.appspot.com",
+  }),
   provideStore(APP_REDUCERS)
 ]);

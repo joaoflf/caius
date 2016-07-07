@@ -4,9 +4,9 @@
 /** Map relative paths to URLs. */
 const map: any = {
   'd3': 'vendor/d3/d3.js',
-  'firebase': 'vendor/firebase/lib/firebase-web.js',
+  'firebase': 'vendor/firebase/firebase.js',
   'angularfire2': 'vendor/angularfire2',
-  '@ngrx': 'vendor/@ngrx',
+  '@ngrx': 'vendor/@ngrx'
   //'@ngrx/devtools': 'vendor/@ngrx/devtools/dist'
 };
 
