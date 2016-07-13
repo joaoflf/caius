@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import {ItemActions} from "../item/item.actions";
-import { AngularFire, FirebaseListObservable } from 'angularfire2';
-import {Store} from "@ngrx/store";
-import {AppState} from "../common/interfaces";
+import {ItemActions} from '../item/item.actions';
+import { AngularFire } from 'angularfire2';
+import {Store} from '@ngrx/store';
+import {AppState} from '../common/interfaces';
 
 @Injectable()
 export class MainContainerService {

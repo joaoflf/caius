@@ -1,8 +1,8 @@
-import {ActionReducer, Action} from "@ngrx/store";
-import {Item} from "./item.model";
-import {ItemActions} from "./item.actions";
+import {ActionReducer, Action} from '@ngrx/store';
+import {Item} from './item.model';
+import {ItemActions} from './item.actions';
 
-//exporting the Items imterface as Item[] array
+// exporting the Items imterface as Item[] array
 export interface ItemsState {
   [index: number]: Item;
 };
@@ -21,4 +21,4 @@ export const items: ActionReducer<ItemsState> = (state = initialState, action: A
     default:
       return state;
   }
-}
+};
