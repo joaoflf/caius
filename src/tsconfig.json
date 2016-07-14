@@ -21,7 +21,6 @@
     "!../typings/**/*.ts"
   ],
   "files": [
-    "app/caius.component.spec.ts",
     "app/caius.component.ts",
     "app/common/index.ts",
     "app/common/interfaces.ts",
@@ -32,15 +31,12 @@
     "app/header/index.ts",
     "app/index.ts",
     "app/item-container/index.ts",
-    "app/item-container/item-container.component.spec.ts",
     "app/item-container/item-container.component.ts",
     "app/item/item.actions.ts",
     "app/item/item.model.ts",
     "app/item/item.reducers.ts",
     "app/main-container/index.ts",
-    "app/main-container/main-container.component.spec.ts",
     "app/main-container/main-container.component.ts",
-    "app/main-container/main-container.service.spec.ts",
     "app/main-container/main-container.service.ts",
     "app/shared/index.ts",
     "app/sidebar/index.ts",

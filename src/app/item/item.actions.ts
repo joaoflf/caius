@@ -1,8 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Action } from '@ngrx/store';
-import {Item} from './item.model';
-import { Observable } from 'rxjs/Observable';
-import {AppState} from "../common/interfaces";
+import { Item } from './item.model';
 
 @Injectable()
 export class ItemActions {

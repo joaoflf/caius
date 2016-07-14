@@ -3,6 +3,7 @@ import {ItemActions} from '../item/item.actions';
 import { AngularFire } from 'angularfire2';
 import {Store} from '@ngrx/store';
 import {AppState} from '../common/interfaces';
+import {Item} from '../item/item.model';
 
 @Injectable()
 export class MainContainerService {
@@ -16,5 +17,8 @@ export class MainContainerService {
       .subscribe(items => {
         this.store.dispatch(this.itemActions.addItems(items));
       });
+  }
+  pushItem(item: Item) {
+     this.af.database.list('/items').push(item);
   }
 }

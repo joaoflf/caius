@@ -1,0 +1,18 @@
+@import "./colors";
+button {
+    &:focus {
+        outline: none;
+    }
+    border: none;
+    background: none;
+    color: $regent-gray;
+}
+
+.round-button {
+    padding: 8px;
+    border: 1px solid $mystic;
+    border-radius: 100%;
+    background: $white;
+    line-height: 1rem;
+    font-size: 20px;
+}

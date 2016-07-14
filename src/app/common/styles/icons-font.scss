@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'caius-icons';
-    src:    url('common/fonts/caius-icons.eot?dywgqb');
-    src:    url('common/fonts/caius-icons.eot?dywgqb#iefix') format('embedded-opentype'),
-        url('common/fonts/caius-icons.ttf?dywgqb') format('truetype'),
-        url('common/fonts/caius-icons.woff?dywgqb') format('woff'),
-        url('common/fonts/caius-icons.svg?dywgqb#caius-icons') format('svg');
+    src:    url('common/fonts/caius-icons.eot?maf87e');
+    src:    url('common/fonts/caius-icons.eot?maf87e#iefix') format('embedded-opentype'),
+        url('common/fonts/caius-icons.ttf?maf87e') format('truetype'),
+        url('common/fonts/caius-icons.woff?maf87e') format('woff'),
+        url('common/fonts/caius-icons.svg?maf87e#caius-icons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -54,15 +54,6 @@
 .icon-paper:before {
     content: "\e034";
 }
-.icon-circle-plus:before {
-    content: "\e040";
-}
-.icon-circle-minus:before {
-    content: "\e041";
-}
-.icon-circle-cross:before {
-    content: "\e043";
-}
 .icon-repeat:before {
     content: "\e058";
 }
@@ -90,6 +81,24 @@
 .icon-trash:before {
     content: "\e109";
 }
+.icon-maximize:before {
+    content: "\e112";
+}
+.icon-minimize:before {
+    content: "\e113";
+}
+.icon-plus:before {
+    content: "\e114";
+}
+.icon-minus:before {
+    content: "\e115";
+}
+.icon-check:before {
+    content: "\e116";
+}
+.icon-cross:before {
+    content: "\e117";
+}
 .icon-menu:before {
     content: "\e120";
 }
@@ -108,3 +117,4 @@
 .icon-ellipsis:before {
     content: "\e129";
 }
+

@@ -1,5 +1,11 @@
 <caius-header></caius-header>
 <div class="frame">
+  <div class="controls bit-1">
+<button class="add-button round-button" (click)="createItem()">
+    <span class="icon-plus"></span>
+</button>
+  </div>
+
   <div *ngFor="let item of items | async" class="item bit-{{item.column}}">
     <caius-item-container></caius-item-container>
   </div>
