@@ -10,3 +10,4 @@
     <caius-item-container></caius-item-container>
   </div>
 </div>
+<caius-item-wizard *ngIf=(isWizardVisible) (closeWizard)="isWizardVisible=false" [isModalVisible]="isWizardVisible"></caius-item-wizard>

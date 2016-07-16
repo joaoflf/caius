@@ -1,0 +1,15 @@
+@import "../common/styles/colors";
+$wizard-header-background-color: $malibu;
+$step-color: $white;
+
+.wizard-header {
+    background: $wizard-header-background-color;
+    height:60px;
+}
+.step-dot {
+    background: $step-color;
+    height: 5px;
+    width: 5px;
+    border-radius: 5px;
+
+}

@@ -1,0 +1,31 @@
+@import "../common/styles/colors";
+$modal-background-color: rgba($black, 0.2);
+$modal-container-background-color: $white;
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: $modal-background-color;
+}
+
+.modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background:$modal-container-background-color;
+  width: 500px;
+}
+
+.modal-header {
+  min-height: 60px;
+}
+.modal-body {
+  min-height: 80px;
+}
+.modal-footer {
+  min-height: 60px;
+}
