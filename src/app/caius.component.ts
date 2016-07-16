@@ -1,18 +1,14 @@
 import {Component} from '@angular/core';
 import {SidebarComponent} from './sidebar/sidebar.component';
 import {MainContainerComponent} from './main-container/main-container.component';
-// import {Devtools, instrumentStore} from '@ngrx/devtools';
+import { StoreLogMonitorComponent } from '@ngrx/store-log-monitor';
 
 @Component({
   moduleId: module.id,
   selector: 'caius-app',
   templateUrl: 'caius.component.html',
   styleUrls: ['caius.component.css'],
-  directives: [SidebarComponent, MainContainerComponent]
-  // directives: [SidebarComponent, HeaderComponent, MainContainerComponent, Devtools],
-  // providers: [
-  //   instrumentStore()
-  // ],
+  directives: [SidebarComponent, MainContainerComponent, StoreLogMonitorComponent]
 })
 export class CaiusAppComponent {
   title = 'caius works!';

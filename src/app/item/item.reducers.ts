@@ -12,15 +12,13 @@ const initialState = [];
 
 
 export const items: ActionReducer<ItemsState> = (state = initialState, action: Action): ItemsState => {
+
   let af: AngularFire;
   switch (action.type) {
     case ItemActions.ADD_ITEMS:
       return action.payload;
-    case ItemActions.CREATE_ITEM:
-      return [
-        ...state,
-        action.payload
-      ];
+    case ItemActions.ADD_ITEM_FINISHED:
+      return state;
     default:
       return state;
   }

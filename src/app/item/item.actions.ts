@@ -12,11 +12,19 @@ export class ItemActions {
     };
   }
 
-  static CREATE_ITEM = '[Item] Create Item';
-  createItem(item: Item): Action {
+  static ADD_ITEM = '[Item] Add Item';
+  addItem(item: Item): Action {
     return {
-      type: ItemActions.CREATE_ITEM,
+      type: ItemActions.ADD_ITEM,
       payload: item
+    };
+  }
+
+  static ADD_ITEM_FINISHED = '[Item] Add Item locally';
+  addItemFinished(): Action {
+    return {
+      type: ItemActions.ADD_ITEM_FINISHED,
+      payload: {}
     };
   }
 }

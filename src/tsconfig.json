@@ -33,6 +33,7 @@
     "app/item-container/index.ts",
     "app/item-container/item-container.component.ts",
     "app/item/item.actions.ts",
+    "app/item/item.effects.ts",
     "app/item/item.model.ts",
     "app/item/item.reducers.ts",
     "app/main-container/index.ts",

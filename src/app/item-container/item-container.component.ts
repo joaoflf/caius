@@ -10,7 +10,7 @@ import * as d3 from 'd3';
 })
 export class ItemContainerComponent implements OnInit {
   constructor() {
-    console.log(d3);
+    // console.log(d3);
   }
 
   ngOnInit() {

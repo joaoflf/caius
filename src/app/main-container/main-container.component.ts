@@ -15,7 +15,7 @@ import {AppState} from '../common/interfaces';
   templateUrl: 'main-container.component.html',
   styleUrls: ['main-container.component.css'],
   directives: [ItemContainerComponent, HeaderComponent],
-  providers: [ItemActions, MainContainerService]
+  providers: [ItemActions]
 })
 export class MainContainerComponent implements OnInit {
 
@@ -35,8 +35,7 @@ export class MainContainerComponent implements OnInit {
 
   createItem() {
     this.actions$.next(
-      this.itemActions.createItem({ id: 12, column: 2 })
+      this.itemActions.addItem({ columns: 2 })
     );
-    this.mainContainerService.pushItem({ id: 12, column: 2 });
   }
 }

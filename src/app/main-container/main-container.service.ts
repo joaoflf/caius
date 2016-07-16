@@ -19,6 +19,6 @@ export class MainContainerService {
       });
   }
   pushItem(item: Item) {
-     this.af.database.list('/items').push(item);
+    return this.af.database.list('/items').push(item);
   }
 }

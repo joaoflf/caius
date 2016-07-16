@@ -7,7 +7,6 @@ const map: any = {
   'firebase': 'vendor/firebase/firebase.js',
   'angularfire2': 'vendor/angularfire2',
   '@ngrx': 'vendor/@ngrx'
-  //'@ngrx/devtools': 'vendor/@ngrx/devtools/dist'
 };
 
 /** User packages configuration. */
@@ -23,11 +22,19 @@ const packages: any = {
   '@ngrx/store': {
     main: 'index.js',
     format: 'cjs'
+  },
+  '@ngrx/effects': {
+    main: 'index.js',
+    format: 'cjs'
+  },
+  '@ngrx/store-devtools': {
+    main: 'index.js',
+    format: 'cjs'
+  },
+  '@ngrx/store-log-monitor': {
+    main: 'index.js',
+    format: 'cjs'
   }
-  // '@ngrx/devtools': {
-  //   main: 'index.js',
-  //   format: 'cjs'
-  // }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -37,7 +44,7 @@ const packages: any = {
 const barrels: string[] = [
   // Angular specific barrels.
   '@angular/core', '@angular/common', '@angular/compiler', '@angular/http', '@angular/router',
-  '@angular/platform-browser', '@angular/platform-browser-dynamic', '@ngrx/devtools',
+  '@angular/platform-browser', '@angular/platform-browser-dynamic',
 
   // Thirdparty barrels.
   'rxjs',
