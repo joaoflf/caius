@@ -1,7 +1,23 @@
 <caius-modal *ngIf=(isModalVisible) (closeModal)="closeWizard.emit('')">
   <div class="wizard-header" modal-header>
-    <div class="step-label">Model Type</div>
-    <div class="step-dot"></div>
-
+    <div class="step active">
+      <div class="step-label">Model Type</div>
+      <div class="step-dot"></div>
+    </div>
+    <div class="step">
+      <div class="step-label">Confirm</div>
+      <div class="step-dot"></div>
+    </div>
   </div>
 </caius-modal>
+<!--<button class="ui button primary" (click)="myModalNormal.show({inverted: true})">Click me</button>
+<sm-modal title="Hello from Modal" class="" icon="home" #myModalNormal>
+  <modal-content>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  </modal-content>
+  <modal-actions>
+    <div class="ui buttons">
+      <div class="ui button primary" (click)="myModalNormal.hide()">Close modal</div>
+    </div>
+  </modal-actions>
+</sm-modal>-->

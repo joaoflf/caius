@@ -21,7 +21,8 @@ module.exports = function(defaults) {
       'jointjs/dist/joint.min.js',
       'angularfire2/**/*.js',
       'firebase/*.js',
-      '@ngrx/**/*.js'
+      '@ngrx/**/*.js',
+      'ng-semantic/**/*'
     ]
   });
 };

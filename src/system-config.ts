@@ -6,7 +6,8 @@ const map: any = {
   'd3': 'vendor/d3/d3.js',
   'firebase': 'vendor/firebase/firebase.js',
   'angularfire2': 'vendor/angularfire2',
-  '@ngrx': 'vendor/@ngrx'
+  '@ngrx': 'vendor/@ngrx',
+  'ng-semantic': 'vendor/ng-semantic'
 };
 
 /** User packages configuration. */
@@ -34,8 +35,12 @@ const packages: any = {
   '@ngrx/store-log-monitor': {
     main: 'index.js',
     format: 'cjs'
+  },
+  'ng-semantic': {
+    main: 'ng-semantic.js', defaultExtension: 'js'
   }
 };
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 /***********************************************************************************************
@@ -44,7 +49,7 @@ const packages: any = {
 const barrels: string[] = [
   // Angular specific barrels.
   '@angular/core', '@angular/common', '@angular/compiler', '@angular/http', '@angular/router',
-  '@angular/platform-browser', '@angular/platform-browser-dynamic',
+  '@angular/platform-browser', '@angular/platform-browser-dynamic','@angular/forms',
 
   // Thirdparty barrels.
   'rxjs',

@@ -1,6 +1,7 @@
 @import "../common/styles/colors";
-$modal-background-color: rgba($black, 0.2);
+$modal-background-color: rgba($black, 0.4);
 $modal-container-background-color: $white;
+$modal-container-shadow-color: $vista-white;
 
 .modal-background {
   position: fixed;
@@ -12,12 +13,14 @@ $modal-container-background-color: $white;
 }
 
 .modal-container {
+  border-radius: 4px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background:$modal-container-background-color;
   width: 500px;
+  box-shadow: $modal-container-shadow-color 0px 1px 2px 0px;
 }
 
 .modal-header {
