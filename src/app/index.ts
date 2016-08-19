@@ -1,2 +1,2 @@
-export {environment} from './environment';
-export {CaiusAppComponent} from './caius.component';
+export * from './environments/environment';
+export * from './app.module';

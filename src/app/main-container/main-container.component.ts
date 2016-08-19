@@ -11,15 +11,14 @@ import {AppState} from '../common/interfaces';
 
 
 @Component({
-  moduleId: module.id,
+   
   selector: 'caius-main-container',
   templateUrl: 'main-container.component.html',
-  styleUrls: ['main-container.component.css'],
+  styleUrls: ['main-container.component.scss'],
   directives: [ItemContainerComponent, HeaderComponent, ItemWizardComponent],
   providers: [ItemActions]
 })
 export class MainContainerComponent implements OnInit {
-
   items: Observable<Item[]> = Observable.create();
   actions$ = new Subject<Action>();
   isWizardVisible: boolean = false;

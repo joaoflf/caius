@@ -1,59 +1,20 @@
 {
-  "compileOnSave": false,
   "compilerOptions": {
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "mapRoot": "",
-    "module": "commonjs",
+    "lib": ["es6", "dom"],
+    "mapRoot": "./",
+    "module": "es6",
     "moduleResolution": "node",
-    "noEmitOnError": true,
-    "noImplicitAny": false,
-    "outDir": "../dist/",
-    "rootDir": ".",
+    "outDir": "../dist/out-tsc",
     "sourceMap": true,
     "target": "es5",
-    "inlineSources": true
-  },
-  "filesGlob": [
-    "**/*.ts",
-    "!../node_modules/**",
-    "!../typings/**/*.ts"
-  ],
-  "files": [
-    "app/caius.component.ts",
-    "app/common/index.ts",
-    "app/common/interfaces.ts",
-    "app/common/reducers.ts",
-    "app/environment.ts",
-    "app/header/header.component.spec.ts",
-    "app/header/header.component.ts",
-    "app/header/index.ts",
-    "app/index.ts",
-    "app/item-container/index.ts",
-    "app/item-container/item-container.component.ts",
-    "app/item-wizard/index.ts",
-    "app/item-wizard/item-wizard.component.spec.ts",
-    "app/item-wizard/item-wizard.component.ts",
-    "app/item/item.actions.ts",
-    "app/item/item.effects.ts",
-    "app/item/item.model.ts",
-    "app/item/item.reducers.ts",
-    "app/main-container/index.ts",
-    "app/main-container/main-container.component.ts",
-    "app/main-container/main-container.service.ts",
-    "app/modal/index.ts",
-    "app/modal/modal.component.spec.ts",
-    "app/modal/modal.component.ts",
-    "app/shared/index.ts",
-    "app/sidebar/index.ts",
-    "app/sidebar/sidebar.component.spec.ts",
-    "app/sidebar/sidebar.component.ts",
-    "main.ts",
-    "system-config.ts",
-    "typings.d.ts"
-  ],
-  "atom": {
-    "rewriteTsconfig": true
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "types": [
+      "jasmine"
+    ]
   }
 }

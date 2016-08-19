@@ -1,10 +1,9 @@
 import {Component, OnInit} from '@angular/core';
 
 @Component({
-  moduleId: module.id,
   selector: 'caius-sidebar',
   templateUrl: 'sidebar.component.html',
-  styleUrls: ['sidebar.component.css']
+  styleUrls: ['sidebar.component.scss']
 })
 export class SidebarComponent implements OnInit {
   constructor() {}

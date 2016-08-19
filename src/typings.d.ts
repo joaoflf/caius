@@ -1,4 +1,8 @@
-/// <reference path="../typings/browser.d.ts" />
-/// <reference path="../typings/d3/d3.d.ts" />
+// Typings reference file, see links for more information
+// https://github.com/typings/typings
+// https://www.typescriptlang.org/docs/handbook/writing-declaration-files.html
+/// <reference path="../typings/index.d.ts" />
+declare var System: any;
+declare var module: { id: string };
+declare var require: any;
 
-declare var module: {id: string};

@@ -1,12 +1,11 @@
 import {Component, OnInit} from '@angular/core';
-import * as d3 from 'd3';
+var d3 = require('d3');
 
 
 @Component({
-  moduleId: module.id,
   selector: 'caius-item-container',
   templateUrl: 'item-container.component.html',
-  styleUrls: ['item-container.component.css']
+  styleUrls: ['item-container.component.scss']
 })
 export class ItemContainerComponent implements OnInit {
   constructor() {

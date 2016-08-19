@@ -1,31 +1,31 @@
-# caius
-Dashboard Prototype using Angular 2 with ngrx/store. 
+# Caius
 
-The usage of @ngrx/store is to design the application using the redux architecture/paradigm.
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.11-webpack.2.
 
-The folder structure is laid out in a feature/component manner, meaning that each feature/component folder has its own views, components, actions, reducers, etc. 
-The app also uses firebase with angularfire2.
+## Development server
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-[Demo](https://joaoflf.github.io/caius/)
+## Code scaffolding
 
-### Prerequisites
-You will need to have [Git](https://git-scm.com/) and [Node.js + NPM](http://nodejs.org) installed on your machine. You will also need to install the `typings` NPM package globally via `npm i -g typings`.
-> Even if you already have the `typings` package installed globally, this repo requires `typings 1.x` so make sure your version is up do date.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
 
-### Quick start
+## Build
 
-```bash
-# clone the repo
-git clone https://github.com/joaoflf/caius.git
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-# change directory to repo
-cd caius
+## Running unit tests
 
-# run npm install (typings install will run automatically)
-npm i
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-# start the server
-npm start
-```
+## Running end-to-end tests
 
-Navigate to [http://localhost:4200/](http://localhost:4200/) in your browser
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). 
+Before running the tests make sure you are serving the app via `ng serve`.
+
+## Deploying to Github Pages
+
+Run `ng github-pages:deploy` to deploy to Github Pages.
+
+## Further help
+
+To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
