@@ -5,6 +5,7 @@ import {ModalComponent} from '../modal/modal.component';
   selector: 'caius-item-wizard',
   templateUrl: 'item-wizard.component.html',
   styleUrls: ['item-wizard.component.scss'],
+  directives: [ModalComponent]
 })
 export class ItemWizardComponent implements OnInit {
 
